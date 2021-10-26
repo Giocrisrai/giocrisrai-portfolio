@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: black;
   color: _palette(charcoal);
   line-height: 1.66667;
   -webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@ h6 {
   }
 
   .palette-dark & {
-    color: #fff;
+    color: orange;
   }
 }
 
@@ -127,7 +127,7 @@ address {
 
 mark,
 ins {
-  background: #fff493;
+  background: #ed9700;
   color: _palette(charcoal);
   padding: 0 3px;
   text-decoration: none;
@@ -161,7 +161,7 @@ blockquote {
   position: relative;
 
   .palette-dark & {
-    color: #fff;
+    color: #ed9700;
   }
 
   @media only screen and (max-width: 600px) {
@@ -262,7 +262,7 @@ table {
 }
 
 caption {
-  color: _palette(charcoal-light-40);
+  color: _palette(#ed9700);
   font-size: 0.88889em;
   font-style: normal;
   margin-bottom: 0.9375em;
@@ -287,7 +287,7 @@ th {
   font-weight: bold;
 
   .palette-dark & {
-    color: #fff;
+    color: orange;
   }
 }
 

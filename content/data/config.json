@@ -1,10 +1,10 @@
 {
-    "title": "Stackbit Exto Theme",
+    "title": "Stackbit Giocrisrai Theme",
     "path_prefix": "/",
-    "color_scheme": "light",
-    "accent_color": "pink",
+    "color_scheme": "dark",
+    "accent_color": "yellow",
     "header": {
-        "title": "Exto",
+        "title": "Giocrisrai",
         "has_nav": true,
         "nav_links": [
             {
@@ -23,11 +23,6 @@
                 "style": "link"
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide/",
-                "style": "link"
-            },
-            {
                 "label": "About",
                 "url": "/about/",
                 "style": "link"
@@ -40,33 +35,26 @@
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=exto&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
+        "content": "&copy; Giocrisrai Godoy",
         "has_social": true,
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/giocrisrai",
                 "style": "icon",
                 "icon": "twitter",
                 "new_window": true
             },
             {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
+                "label": "Github",
+                "url": "https://www.github.com/giocrisrai",
                 "style": "icon",
-                "icon": "instagram",
-                "new_window": true
-            },
-            {
-                "label": "Dribbble",
-                "url": "https://dribbble.com/",
-                "style": "icon",
-                "icon": "dribbble",
+                "icon": "github",
                 "new_window": true
             },
             {
                 "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "url": "https://www.linkedin.com/in/giocrisrai",
                 "style": "icon",
                 "icon": "linkedin",
                 "new_window": true

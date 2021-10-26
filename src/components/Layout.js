@@ -30,8 +30,8 @@ export default class Body extends React.Component {
         const pageTitle = _.get(page, 'title');
         const config = _.get(this.props, 'config');
         const configTitle = _.get(config, 'title');
-        const colorScheme = _.get(config, 'color_scheme', 'light');
-        const accentColor = _.get(config, 'accent_color', 'pink');
+        const colorScheme = _.get(config, 'color_scheme', 'dark');
+        const accentColor = _.get(config, 'accent_color', 'yellow');
         const favicon = _.get(config, 'favicon');
         const domain = _.trim(_.get(config, 'domain', ''), '/');
         const seo = _.get(page, 'seo');

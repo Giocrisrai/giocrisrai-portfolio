@@ -4,10 +4,9 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'Hi, I''m Giocrisrai Godoy'
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Building a technologial and sustainable world, where digital transformation gives us a leap to better oportunities.
     actions:
       - label: Let's talk
         url: /contact
@@ -16,83 +15,51 @@ sections:
     type: section_portfolio
     layout_style: mosaic
     title: Recent Work
-    subtitle: An optional subtitle of the section
-    projects_number: 6
+    subtitle: Contribution that has been developing
+    projects_number: 4
     view_all_label: View All
     view_all_url: portfolio
   - section_id: services
     type: section_grid
-    title: What We Do
-    subtitle: An optional subtitle of the section
+    title: What I Do
+    subtitle: Using technology to benefit the changes that transform the new industry 4.0
     col_number: two
     is_numbered: true
     grid_items:
-      - title: Service Title
+      - title: Digital Transformation
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
-      - title: Service Title
+          Analyzing the management of the organization's processes, recommending the best actions through methodological and technological plans in order that the organization remains in a constant ware of this technological revolution.
+      - title: Process Automation
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus.
-      - title: Service Title
+          Evaluation of routine task that can become autmated in order to reduce errors and gain efficiency in the development of tasks.
+      - title: Data Analysis and Artificial Intelligence
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin.
-      - title: Service title
+          Ability to take the information of the company to generate the analysis of the information and thus determine patterns that generate greater business efficiency, these tools can be used at different levels of the company for the constant optimization of products and services.
+      - title: IoT, Smart Home, Mechatronics and Robotics
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-  - section_id: testimonials
-    type: section_testimonials
-    title: Testimonials
-    subtitle: An optional subtitle of the section
-    col_number: three
-    testimonials:
-      - author: Sean Salazar
-        avatar: images/sean_salazar.jpg
-        avatar_alt: Sean Salazar's photo
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla.
-      - author: Aubrey Hoover
-        avatar: images/aubrey_hoover.jpg
-        avatar_alt: Aubrey Hoover's photo
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Deegan Wallace
-        avatar: images/deegan_wallace.jpg
-        avatar_alt: Deegan Wallace's photo
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam.
+          Smart devices add value to us in our day to day, we must know how to take advantage of our work enviroments as well as to generate comfort in our homes and spaces of common use using home automation technologies, mechatronics in the industry and robotics which gives us a endless opportunities, which is necessary to evaluate according to our needs and thus be in this era of change that manages the comfort generated through instrumentation and data.
   - section_id: latest-posts
     type: section_posts
     title: Latest from the Blog
-    subtitle: An optional subtitle of the section
-    posts_number: 3
-    col_number: three
+    subtitle: Contributions and reflections to the technology community.
+    posts_number: 2
+    col_number: two
     actions:
       - label: View Blog
         url: blog
         style: button
 seo:
-  title: Stackbit Exto Theme
-  description: The preview of the Exto theme
+  title: Stackbit Giocrisrai Theme
+  description: The preview of the Giocrisrai theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Exto Theme
+      value: Stackbit Giocrisrai Theme
       keyName: property
     - name: 'og:description'
-      value: The preview of the Exto theme
+      value: The preview of the Giocrisrai theme
       keyName: property
     - name: 'og:image'
       value: images/exto_preview.png
@@ -101,9 +68,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Exto Theme
+      value: Stackbit Giocrisrai Theme
     - name: 'twitter:description'
-      value: The preview of the Exto theme
+      value: The preview of the Giocrisrai theme
     - name: 'twitter:image'
       value: images/exto_preview.png
       relativeUrl: true
