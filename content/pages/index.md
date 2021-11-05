@@ -68,7 +68,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Giocrisrai Theme
+      value: Giocrisrai
     - name: 'twitter:description'
       value: The preview of the Giocrisrai theme
     - name: 'twitter:image'
