@@ -49,7 +49,7 @@ sections:
         url: blog
         style: button
 seo:
-  title: Giocrisrai Theme
+  title: Giocrisrai
   description: The preview of the Giocrisrai theme
   extra:
     - name: 'og:type'
