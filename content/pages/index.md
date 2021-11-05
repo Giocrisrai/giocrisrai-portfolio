@@ -56,7 +56,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Giocrisrai Theme
+      value: Giocrisrai Theme
       keyName: property
     - name: 'og:description'
       value: The preview of the Giocrisrai theme
