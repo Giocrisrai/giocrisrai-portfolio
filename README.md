@@ -1,4 +1,4 @@
-# ✨ Giocrisrai Nextjs Theme ✨
+# ✨ Giocrisrai Portfolio ✨
 
 This is Stackbit's "Giocrisrai" theme built with [Next.js](https://nextjs.org/) and
 powered by content stored in files.
