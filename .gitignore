@@ -80,6 +80,10 @@ web_modules/
 .next
 out
 
+# Astro build output
+dist/
+.astro/
+
 # Serverless directories
 .serverless/
 
