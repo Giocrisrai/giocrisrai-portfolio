@@ -23,7 +23,7 @@ const {
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@Giocrisrai" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
@@ -34,6 +34,9 @@ const {
     <title>{title}</title>
   </head>
   <body class="antialiased">
+    <a href="#hero" class="sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[var(--color-accent)] focus:text-[var(--color-bg-primary)] focus:font-semibold">
+      Skip to main content
+    </a>
     <slot />
   </body>
 </html>
