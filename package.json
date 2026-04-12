@@ -1,11 +1,9 @@
 {
   "name": "giocrisrai-portfolio",
-  "version": "1.0.0",
-  "description": "Giocrisrai Godoy - Portfolio",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "version": "2.0.0",
+  "description": "Giocrisrai Godoy Bonillo - ML/AI Engineer Portfolio",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -15,17 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/Giocrisrai/giocrisrai-portfolio.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Giocrisrai/giocrisrai-portfolio/issues"
-  },
-  "homepage": "https://github.com/Giocrisrai/giocrisrai-portfolio#readme",
+  "author": "Giocrisrai Godoy Bonillo",
+  "license": "MIT",
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.1.5",
+    "astro": "^5.8.0",
     "tailwindcss": "^4.2.2"
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }

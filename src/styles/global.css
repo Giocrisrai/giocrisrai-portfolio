@@ -27,3 +27,7 @@ body {
   background-color: var(--color-accent);
   color: var(--color-bg-primary);
 }
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
