@@ -1,0 +1,107 @@
+---
+const degrees = [
+  {
+    title: "MSc Mathematical Engineering & Computation",
+    institution: "Universidad Internacional de La Rioja (UNIR)",
+    period: "2025 — Present",
+    note: "Thesis: 6-DoF Pose Estimation with Transformers & Diffusion Models for Robotic Bin Picking",
+    inProgress: true,
+  },
+  {
+    title: "MSc Artificial Intelligence",
+    institution: "Universidad Internacional de La Rioja (UNIR)",
+    period: "2020 — 2021",
+    note: "Thesis: Experimental AI Prototype for Biogeochemical Models",
+    inProgress: false,
+  },
+  {
+    title: "Mechatronics Engineering",
+    institution: "",
+    period: "",
+    note: "Electronics, automation, robotics, and control systems",
+    inProgress: false,
+  },
+];
+
+const certifications = [
+  { name: "Azure AI Fundamentals", issuer: "Microsoft", year: "2025" },
+  { name: "Generative AI with Large Language Models", issuer: "DeepLearning.AI + AWS", year: "2025" },
+  { name: "Visual Recognition with Deep Learning", issuer: "Universidad de Chile", year: "2025" },
+  { name: "Generative AI Applied to Education", issuer: "UNIR", year: "2025" },
+  { name: "Generative AI Applications with RAG & LangChain", issuer: "IBM", year: "2025" },
+  { name: "Data Manipulation at Scale", issuer: "University of Washington", year: "2025" },
+  { name: "Applied Research & Innovation Diploma", issuer: "Duoc UC (110h, grade 7.0/7.0)", year: "2025" },
+  { name: "Reinforcement Learning Algorithms", issuer: "Pluralsight", year: "2023" },
+];
+---
+
+<section id="education" class="py-24 bg-[var(--color-bg-secondary)]/50">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Education & Credentials</h2>
+      <p class="text-[var(--color-text-secondary)] max-w-2xl mx-auto text-lg">
+        Continuous learning across AI, mathematics, and engineering — backed by 135+ certifications.
+      </p>
+    </div>
+    <div class="grid lg:grid-cols-2 gap-10">
+      <!-- Degrees -->
+      <div>
+        <h3 class="text-xl font-semibold mb-6">Degrees</h3>
+        <div class="relative">
+          <div class="absolute left-0 top-0 bottom-0 w-px bg-[var(--color-border)]"></div>
+          <div class="space-y-8">
+            {degrees.map(degree => (
+              <div class="relative pl-8">
+                <div class="absolute left-0 top-1.5 w-2.5 h-2.5 rounded-full bg-[var(--color-accent)] -translate-x-1/2"></div>
+                <div>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <h4 class="font-semibold">{degree.title}</h4>
+                    {degree.inProgress && (
+                      <span class="text-xs px-2 py-0.5 rounded-full bg-[var(--color-accent)]/10 text-[var(--color-accent)] font-medium">
+                        In Progress
+                      </span>
+                    )}
+                  </div>
+                  {degree.institution && (
+                    <p class="text-sm text-[var(--color-text-muted)] mt-1">{degree.institution}</p>
+                  )}
+                  {degree.period && (
+                    <p class="text-sm text-[var(--color-accent)] mt-1">{degree.period}</p>
+                  )}
+                  {degree.note && (
+                    <p class="text-sm text-[var(--color-text-secondary)] mt-2 italic">{degree.note}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div>
+        <h3 class="text-xl font-semibold mb-6">Key Certifications</h3>
+        <div class="space-y-0">
+          {certifications.map((cert, i) => (
+            <div class:list={["py-3 flex items-start justify-between gap-4", i < certifications.length - 1 && "border-b border-[var(--color-border)]/50"]}>
+              <div>
+                <p class="font-medium text-sm">{cert.name}</p>
+                <p class="text-xs text-[var(--color-text-muted)] mt-0.5">{cert.issuer}</p>
+              </div>
+              <span class="text-xs text-[var(--color-text-muted)] shrink-0">{cert.year}</span>
+            </div>
+          ))}
+        </div>
+        <a
+          href="https://www.linkedin.com/in/giocrisrai/details/certifications/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 mt-6 text-sm text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] transition-colors"
+        >
+          View all 135+ certifications on LinkedIn
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

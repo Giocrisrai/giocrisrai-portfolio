@@ -1,0 +1,80 @@
+---
+const timeline = [
+  {
+    period: "Mar 2024 — Present",
+    roles: [
+      {
+        title: "University Professor & Researcher",
+        company: "Duoc UC, Puerto Montt, Chile",
+        description: "Teaching Data Mining, Machine Learning, and Deep Learning. Developing krinoInsight (AI-powered grading). Led Chilean Sign Language avatar project with Canal 13. Mentoring robotics (Duckietown). Instructional design for AI curricula.",
+      },
+      {
+        title: "Data Engineer",
+        company: "MTsolutions — Your Smart Factory, Remote",
+        description: "Building data infrastructure and optimizing workflows with Apache Airflow. Integrating ML solutions into IIoT manufacturing products across LATAM.",
+      },
+    ],
+  },
+  {
+    period: "Nov 2022 — Jan 2024",
+    roles: [
+      {
+        title: "Data Scientist",
+        company: "Alaya Digital Solutions, Chile",
+        description: "Led QA model evaluations for mining operations with Kedro pipelines. Built databases, deployed ML models via Flask, and integrated generative AI into production solutions.",
+      },
+    ],
+  },
+  {
+    period: "Mar 2019 — Nov 2022",
+    roles: [
+      {
+        title: "Development Engineer",
+        company: "GEOGAMA, Puerto Montt, Chile",
+        description: "Led digital transformation and technology strategy. Process automation, agile methodologies, data science, AI R&D, and environmental technology startup development.",
+      },
+    ],
+  },
+  {
+    period: "Nov 2017 — Mar 2019",
+    roles: [
+      {
+        title: "Continuous Improvement Engineer",
+        company: "Rheem Chilena, Santiago, Chile",
+        description: "Kaizen philosophy, Lean Manufacturing, electronic automation, TPM, and 5S for metalworking manufacturing processes.",
+      },
+    ],
+  },
+];
+---
+
+<section id="experience" class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Experience</h2>
+      <p class="text-[var(--color-text-secondary)] max-w-2xl mx-auto text-lg">
+        From manufacturing floors to AI research labs — a trajectory built on solving real problems with technology.
+      </p>
+    </div>
+    <div class="relative">
+      <div class="absolute left-0 sm:left-4 top-0 bottom-0 w-px bg-[var(--color-border)]"></div>
+      <div class="space-y-12">
+        {timeline.map(entry => (
+          <div class="relative pl-8 sm:pl-14">
+            <div class="absolute left-0 sm:left-4 top-1.5 w-2.5 h-2.5 rounded-full bg-[var(--color-accent)] -translate-x-1/2"></div>
+            <span class="text-sm text-[var(--color-accent)] font-medium">{entry.period}</span>
+            <div class="mt-3 space-y-4">
+              {entry.roles.map(role => (
+                <div class="p-5 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg-card)]">
+                  <h3 class="text-lg font-semibold">{role.title}</h3>
+                  <p class="text-sm text-[var(--color-text-muted)] mt-1">{role.company}</p>
+                  <p class="text-[var(--color-text-secondary)] mt-3 leading-relaxed">{role.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
