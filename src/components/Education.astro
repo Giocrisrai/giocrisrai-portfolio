@@ -3,9 +3,9 @@ const degrees = [
   {
     title: "MSc Mathematical Engineering & Computation",
     institution: "Universidad Internacional de La Rioja (UNIR)",
-    period: "2025 — Present",
+    period: "2025 — 2026",
     note: "Thesis: 6-DoF Pose Estimation with Transformers & Diffusion Models for Robotic Bin Picking",
-    inProgress: true,
+    inProgress: true, // tesis defendida; queda una asignatura
   },
   {
     title: "MSc Artificial Intelligence",
@@ -40,7 +40,7 @@ const certifications = [
     <div class="text-center mb-16">
       <h2 class="text-3xl sm:text-4xl font-bold mb-4">Education & Credentials</h2>
       <p class="text-[var(--color-text-secondary)] max-w-2xl mx-auto text-lg">
-        Two master's degrees in AI and mathematical engineering, an engineering background, and continuous applied research.
+        A master's in AI, a second master's in mathematical engineering with the thesis already defended, an engineering background, and continuous applied research.
       </p>
     </div>
     <div class="grid lg:grid-cols-2 gap-10">
@@ -58,7 +58,7 @@ const certifications = [
                     <h4 class="font-semibold">{degree.title}</h4>
                     {degree.inProgress && (
                       <span class="text-xs px-2 py-0.5 rounded-full bg-[var(--color-accent)]/10 text-[var(--color-accent)] font-medium">
-                        In Progress
+                        Thesis defended
                       </span>
                     )}
                   </div>
